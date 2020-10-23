@@ -84,7 +84,7 @@ $(function(){
         document.execCommand('copy');
         $textarea.remove();
     });
-
+    
     $('.private').on('click', function () {
         input_text = iwake_private[Math.floor(Math.random() * iwake_private.length)]
         $('.textarea').val(input_text)
@@ -94,7 +94,5 @@ $(function(){
         $textarea.select();
         document.execCommand('copy');
         $textarea.remove();
-    });
-
-    
+    }); 
 });
