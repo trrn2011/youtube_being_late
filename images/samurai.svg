@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="532px" height="778px" viewBox="0 0 532 778" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-246.000000, -48.000000)">
+            <g id="Group" transform="translate(246.000000, 48.738298)">
+                <line x1="255.223386" y1="19.8213177" x2="259.776614" y2="106.702087" id="Line-Copy-2" stroke="#000000" stroke-linecap="square"></line>
+                <line x1="274.304899" y1="30.2972596" x2="260.695101" y2="116.226145" id="Line-Copy-3" stroke="#000000" stroke-linecap="square"></line>
+                <line x1="285.553696" y1="19.9225652" x2="270.446304" y2="105.60084" id="Line-Copy-4" stroke="#000000" stroke-linecap="square"></line>
+                <line x1="302.162215" y1="31.6316444" x2="273.837785" y2="113.89176" id="Line-Copy-5" stroke="#000000" stroke-linecap="square"></line>
+                <line x1="232.953012" y1="0" x2="242.046988" y2="86.5234049" id="Line" stroke="#000000" stroke-linecap="square"></line>
+                <line x1="241.44597" y1="10.1850415" x2="253.55403" y2="96.3383634" id="Line-Copy" stroke="#000000" stroke-linecap="square"></line>
+                <rect id="Rectangle" fill="#393939" transform="translate(267.000000, 186.761702) rotate(-360.000000) translate(-267.000000, -186.761702) " x="237" y="76.2617024" width="60" height="221"></rect>
+                <circle id="Oval" fill="#FFE6C3" cx="266" cy="511.261702" r="266"></circle>
+                <circle id="Oval" fill="#000000" cx="177.5" cy="380.761702" r="7.5"></circle>
+                <circle id="Oval-Copy" fill="#000000" cx="318.5" cy="388.761702" r="7.5"></circle>
+                <rect id="Rectangle" fill="#000000" transform="translate(199.500000, 486.761702) rotate(-68.000000) translate(-199.500000, -486.761702) " x="194" y="437.261702" width="11" height="99"></rect>
+                <rect id="Rectangle-Copy" fill="#000000" transform="translate(288.500000, 493.761702) rotate(-103.000000) translate(-288.500000, -493.761702) " x="283" y="444.261702" width="11" height="99"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
