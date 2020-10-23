@@ -74,6 +74,7 @@ iwake_private = [`会議長引いちゃった、到着遅れるごめんなさ�
 ]
 
 $(function(){
+    $('.tool_chip').hide();
     $('.formal').on('click', function () {
         input_text = iwake_formal[Math.floor(Math.random() * iwake_formal.length)]
         $('.textarea').val(input_text)
@@ -83,6 +84,8 @@ $(function(){
         $textarea.select();
         document.execCommand('copy');
         $textarea.remove();
+        $('.tool_chip').show();
+        $('.tool_chip').fadeOut(3000);
     });
     
     $('.private').on('click', function () {
@@ -94,5 +97,7 @@ $(function(){
         $textarea.select();
         document.execCommand('copy');
         $textarea.remove();
+        $('.tool_chip').show();
+        $('.tool_chip').fadeOut(3000);
     }); 
 });
