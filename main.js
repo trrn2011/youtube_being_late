@@ -77,27 +77,21 @@ $(function(){
     $('.tool_chip').hide();
     $('.formal').on('click', function () {
         input_text = iwake_formal[Math.floor(Math.random() * iwake_formal.length)]
-        $('.textarea').val(input_text)
-        let $textarea = $('<textarea></textarea>');
-        $textarea.text(input_text);
-        $(this).append($textarea);
+        $('.textarea').val(input_text);
+        let $textarea = $('.textarea');
         $textarea.select();
         document.execCommand('copy');
-        $textarea.remove();
         $('.tool_chip').show();
-        $('.tool_chip').fadeOut(3000);
+        $('.tool_chip').fadeOut(1000);
     });
     
     $('.private').on('click', function () {
         input_text = iwake_private[Math.floor(Math.random() * iwake_private.length)]
-        $('.textarea').val(input_text)
-        let $textarea = $('<textarea></textarea>');
-        $textarea.text(input_text);
-        $(this).append($textarea);
+        $('.textarea').val(input_text);
+        let $textarea = $('.textarea');
         $textarea.select();
         document.execCommand('copy');
-        $textarea.remove();
         $('.tool_chip').show();
-        $('.tool_chip').fadeOut(3000);
+        $('.tool_chip').fadeOut(1000);
     }); 
 });
